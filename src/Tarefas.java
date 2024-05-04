@@ -19,6 +19,7 @@ public class Tarefas {
         System.out.println("Sua terceira nota é: " + nota3);
         System.out.println("Digite sua última nota: ");
         Integer nota4 = scanner.nextInt();
+
         Integer result = nota1 + nota2 + nota3 + nota4 / 4;
 
     public static String getResult (Integer result) {
